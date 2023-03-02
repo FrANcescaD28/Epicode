@@ -1,0 +1,219 @@
+/* Contenuto centrale */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeded;
+    margin: 0;
+	padding: 0;
+    align-items: center;
+}
+
+/* Rendere la pagina adattabili ai vari dispositivi */
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box {
+    width: 30%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Immpostazioni box header */
+header{
+    background-color: #222f3e;
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 50px;
+    float: left;
+}
+/* impostazioni barra di navigazione */
+nav{
+    background-color: #354758;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   }
+  
+li {
+    margin: 0 10px;
+    color: white;
+    font-weight: lighter;
+   }
+
+/* Barra gift card */
+.gift_card {
+    background-color: #f56600;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  
+.gift_card span {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* impostazioni banner background image */
+.banner_gift{
+    background-image: url(assets/bg-image.png);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.banner_gift h4{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;  
+}
+.banner_gift h5{
+    font-size: 16px;
+    color: white;
+    margin-top: 0;
+
+}
+
+.titolo{
+    color: black;
+    font-size: 14px;
+    font-weight: bold 80;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Box imaggini 1 */
+.Categorie_prodotti {
+    background-color: white;
+    max-width: fit-content;
+    display: flex block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .Categorie_prodotti img {
+    width: 280px;
+    height: 320px;
+    margin: 0 5px;
+    border: 5px solid #f4f4f4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .game{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .game img{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .game p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .sound{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sound img{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .sound p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_footer{
+    background-color: #354758;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.link_footer a{
+    color: white;
+}
+
+footer{
+    background-color: #222f3e;
+    height: 200px;
+    width: 100%; 
+    
+}
+
+
+.logo_footer{
+    margin-top: 25px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }   
+
+ 
+
+
+  
+
+  
+  
+
+
+
