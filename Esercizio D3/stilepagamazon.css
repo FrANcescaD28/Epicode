@@ -194,17 +194,16 @@ li {
 footer{
     background-color: #222f3e;
     height: 200px;
-    width: 100%; 
-    
+    width: 100%;     
 }
 
 
 .logo_footer{
     margin-top: 25px;
+    margin-left: 600px;
     height: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
  }   
 
  
