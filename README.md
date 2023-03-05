@@ -1,3 +1,3 @@
 # Epicode
 Esercizi 
-L'esercizio D3 è da definire alcuni dettagli
+L'esercizio D4 è da completare
