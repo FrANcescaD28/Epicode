@@ -149,7 +149,7 @@ li {
     text-align: left;
     font-size: 25px;
     width: bold;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .griglia{
@@ -165,15 +165,87 @@ li {
     align-items: center;
   }
   .immagine img{
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .griglia span{
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 15px;
   }
-  
+
+  .gaming_accessories a{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+   /* Box abiti */
+   .comfy_styles{
+    height: 510px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+  }
+  .comfy_styles h3{
+    text-align: left;
+    font-size: 25px;
+    width: bold;
+    margin-left: 20px;
+  }
+  .comfy_styles a{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  /* Box vacanze */
+  .holiday_gift{
+    height: 510px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+  }
+  .holiday_gift h3{
+    text-align: left;
+    font-size: 25px;
+    width: bold;
+    margin-left: 20px;
+  }
+  .holiday_gift a{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  /* box regali wishlist */
+  .wishlist{
+    height: 510px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+  }
+  .wishlist h3{
+    text-align: left;
+    font-size: 25px;
+    width: bold;
+    margin-left: 20px;
+  }
+  .wishlist a{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
   
   
   /* parte gifting game */
