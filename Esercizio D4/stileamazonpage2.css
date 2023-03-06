@@ -4,6 +4,7 @@ body{
     background-color: #eaeded;
     margin: 0;
 	  padding: 0;
+    width: auto;
     align-items: center;
 }
 
