@@ -8,18 +8,6 @@ body{
     align-items: center;
 }
 
-/* Rendere la pagina adattabili ai vari dispositivi */
-.container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .box {
     width: 30%;
     margin-bottom: 20px;
@@ -113,40 +101,39 @@ li {
     margin-top: 0;
 
 }
-/* Box imaggini 1 */
-.titolo{
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    margin-top: 10px;
+/* Box categorie prodotti */
+.Categorie_prodotti .titolo{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px 20px;
+  text-align: left;
+  width: 100%;
 }
 
-/* Box imaggini 1 */
 .Categorie_prodotti {
     background-color: white;
     width: 97%;
-    display: flex block;
-    flex-direction: row;
-    justify-content: flex-start;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center; 
     margin-top: 50px;
     margin-left: 20px;
-    text-align: left;
+    text-align: center;
   }
 
   .Categorie_prodotti img {
-    width: 250px;
+    width: 300px;
     height: 300px;
-    margin: 10px 20px;
-    margin-bottom: 20px;
-    border: 15px solid #f4f4f400;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 5px 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
   }
 
-  /* Contenitore  box game */
+  /* Box accessori game */
   .gaming_accessories{
     height: 510px;
     width: 500px;
@@ -189,7 +176,7 @@ li {
   
   
   
-  
+  /* parte gifting game */
   .game{
     display: block;
     flex-direction: row;
@@ -248,8 +235,7 @@ footer{
 
 .logo_footer{
     margin-top: 25px;
-    margin-left: 600px;
+    margin-left: 880px;
     height: 50px;
     display: flex;
-
  }   
