@@ -125,11 +125,10 @@ li {
 /* Box imaggini 1 */
 .Categorie_prodotti {
     background-color: white;
-    max-width: fit-content;
+    width: 90%;
     display: flex block;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
     margin-left: 20px;
   }
@@ -137,16 +136,18 @@ li {
   .Categorie_prodotti img {
     width: 280px;
     height: 320px;
-    margin: 0 5px;
-    border: 5px solid #f4f4f4;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    margin: 0 60px;
+    margin-bottom: 20px;
+    border: 10px solid #f4f4f400;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
   }
   
   .game{
     display: block;
     flex-direction: row;
     justify-content: center;
+    margin-top: 20px;
   }
   .game img{
     width: 90%;
