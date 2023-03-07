@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-size:0;
+  }
+  .container div {
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+  }
+
+  .container div:nth-child(even){
+    border: 1px solid red;
+  }
+
+.container div:nth-child(odd) span:nth-child(2n+2){
+   color: green; 
+  }
+
+  .container div:nth-child(2) span:last-of-type{
+    color: blue;
+  }
+  .container div:nth-child(6) span:not( :last-of-type){
+    color: yellow;
+  }
+  .container div span:nth-child(1){
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+  }
+  .container div span:nth-child(2){
+    position: absolute;
+    top: -20px;
+    left: 30px;
+  }
+  .container div:last-of-type span:nth-child(4){
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:-20px;
+  }
+  .container div:first-child span:nth-child(4){
+    position: absolute;
+    left:-20px;
+    top:50%;
+    transform: translateY(-50%);
+  }
+
+
+  
+  
