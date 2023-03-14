@@ -52,6 +52,7 @@ body{
 }
 .box-immagine:hover .tasti{
     opacity: 1;
+
 }
 .box-immagine .tasti button{
   padding: 12px 20px;
