@@ -95,3 +95,7 @@ body{
     transition: all 0.10s ease;
     transition-delay: 0.2s;
 }
+
+.copyright{
+    display: none;
+}
