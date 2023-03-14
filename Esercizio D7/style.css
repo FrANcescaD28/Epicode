@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header, footer{
+background-color: rgb(139,202,202);
+padding: 20px;
+height: 200px;
+}
+
+div{
+    display: flex;
+    height: 250px;
+}
+nav{
+    background-color: rgb(243,189,12);
+    width: 25%;
+    padding: 20px;
+}
+
+article{
+    background-color: rgb(214,214,118);
+    padding: 20px;
+    width: 40%;
+}
+
+aside{
+    background-color: rgb(255,255,137);
+    padding: 20px;
+    width: 40%;
+}
+
+
+
+
+
+.copyright{
+    display: none;
+}
