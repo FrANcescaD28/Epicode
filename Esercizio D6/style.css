@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     justify-content:center;
     align-items:center;
+    font-family: 'Times New Roman', Times, serif;
 }
 .container{
     border: 8px solid black;
@@ -63,7 +64,6 @@ body{
   display: block;
   font-size: 10px;
   font-weight: bolder;
-  cursor: pointer;
 }
 
 .hidden{
@@ -88,6 +88,9 @@ body{
 .box-immagine .tasti .tasto4{
     position: relative;
     background-color: red;
-    bottom: 260px;
-    left: 170px;
+    color: white;
+    left: 10rem;
+    top: -16rem;
+    transition: all 0.10s ease;
+    transition-delay: 0.2s;
 }
