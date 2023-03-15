@@ -7,7 +7,7 @@
 header, footer{
 background-color: rgb(139,202,202);
 padding: 20px;
-height: 200px;
+height: 80px;
 }
 
 div{
@@ -17,6 +17,7 @@ div{
 nav{
     background-color: rgb(243,189,12);
     width: 25%;
+    height: 100%;
     padding: 20px;
 }
 
