@@ -8,6 +8,8 @@ header, footer{
 background-color: rgb(139,202,202);
 padding: 20px;
 height: 80px;
+display: flex;
+flex-direction: wrap;
 }
 
 div{
