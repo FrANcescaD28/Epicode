@@ -1,0 +1,245 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* stile header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .Logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .azioni-utente {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .fa-magnifying-glass,
+  .fa-bookmark,
+  .fa-bell,
+  .fa-circle-user {
+    margin-right: 10px;
+  }
+
+  /* stile main */
+
+  main{
+    padding: 10px 20px;
+    margin-top: 150px;
+    float: left;
+    width: 65%;
+  }
+
+  article{
+    margin-bottom: 20px;
+  }
+
+  /* stile primo articolo */
+  .contenitore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .testo{
+    float: left;
+    text-align: justify;
+  }
+  .immagine{
+    float: right; 
+    margin-left: 45px;
+    margin-top: 30px;
+    }
+
+    .testo span{
+        color: grey;
+        
+    }
+    .testo p{
+        font-size: 13px;
+    }
+
+   
+
+    /* stile aside*/
+
+    aside{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 30%;
+        border-left: 1px solid grey;
+    }
+    /* sezione medium e twitter */
+    .sezione1{
+      width: 100%;
+      height: 200px;
+      margin: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid grey;
+  
+    }
+
+    .Logo2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .Logo2 img{
+       width: 10%;
+    }
+    .sezione1 span{
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 10px;
+    }
+
+    .sezione1 button{
+      padding: 5px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    /* sezione argomenti */
+    .sezione2{
+      width: 100%;
+      height: 200px;
+      margin: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sezione2 button{
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .sezione2 button:hover{
+      background-color: blueviolet;
+    }
+
+    /* sezione follow */
+    .sezione3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 20px;
+      margin-top: 50px;
+    }
+
+    .sezione3 img{
+      width: 15%;
+    }
+
+    .users{
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .users .text{
+      margin-left: 2px;
+    }
+
+    .users .text h4{
+      margin-bottom: 0;
+    }
+    .users span{
+      font-size: 12px;
+      color: grey;
+    }
+    .users button{
+      margin-top: 5px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .reduce{
+      width: 13%;
+      margin-left: 20px;
+      margin-right: 0;
+      border-radius: 20px;
+    }
+    .breduce{
+      margin-right: 28px;
+    }
+
+    .sezione4{
+      padding: 20px 20px;
+      margin-bottom: 10px;
+    }
+
+    .sezione4 h4{
+      text-align: center;
+    }
+
+    a{
+      color: green;
+      text-decoration: underline;
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    .sezione5 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    
+    .sezione5 span {
+      margin: 10px;
+      padding: 5px;
+      color: grey;
+    }
+   
+   
+
+    
+
+
+
