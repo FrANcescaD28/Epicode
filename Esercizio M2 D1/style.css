@@ -1,0 +1,701 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* I set a standard size so that the site fits more devices */
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header settings */
+header{
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+header span{
+    color: white;
+}
+
+.img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+/* I gave margins and centered the icons used */
+.fa-arrow-down, .fa-arrow-right, .fa-caret-down{
+    margin-left: 5px;
+    margin-right: 20px;
+    align-content: center;
+}
+
+
+
+#candidati{
+    background-color: aqua;
+    padding:10px 10px;
+    color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* I divided the main into two parts: left and right  */
+
+main{
+    margin-top: 59px;
+    background-color: #151A42;
+    height: 552px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* On the left side I set the text contained in the page to be cloned using h1 for the title, a p
+  for the text and an unordered list for the listed items and a button. */
+  .left{
+    flex-basis: 50%;
+    justify-content: center;
+    padding: 2rem;
+    text-align: left;
+    color: white;
+  }
+
+  .left h1{
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+  }
+
+  .left p{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .left ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    list-style: none;
+  }
+
+  .left ul li{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* i have used the ::before pseudo-class to insert
+  a  symbol (•) before each li element in the list  */
+  .left ul li::before{
+    content: "•";
+    color: violet;
+    margin-right: 5px;
+  }
+
+  .left button{
+    padding: 10px 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+/*  For the right side i set a background image for replicate the items 
+inside the original page */
+  .right{
+    flex-basis: 50%;
+    position: relative;
+    background-image: url('assets/epicode-svg-animation-1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .people{
+  max-width: 87%;
+  z-index: 5;
+  margin-left: 80px;
+}
+
+  .right img{
+    max-width: 80%;
+}
+
+.container1{
+  background-color: #151A42;
+  height: 650px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.container1 h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.container1 p{
+  margin-top: 10px;
+  text-align: center;
+  padding-left:50px ;
+  padding-right:50px ;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.wrapper1{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-left: 10px;
+}
+
+.box{
+  height: 200px;
+  width: 310px;
+  background: linear-gradient(48deg, rgba(20,21,51,1) 0%, rgba(25,32,84,1) 100%);
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 3px solid; 
+  border-image: linear-gradient(98deg, rgba(141,80,205,1) 0%, rgba(208,38,173,1) 100%) 2;
+}
+
+.box img{
+  width: 10%;
+  margin-left: 5px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.box div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.box h4{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+.box span{
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+
+.box2{
+  height: 200px;
+  width: 310px;
+  background: linear-gradient(48deg, rgba(20,21,51,1) 0%, rgba(25,32,84,1) 100%);
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 3px solid; 
+  border-image: linear-gradient(98deg, rgba(141,80,205,1) 0%, rgba(208,38,173,1) 100%) 2;
+}
+
+.box2 img{
+  width: 18%;
+  margin-left: 5px;
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}
+
+.box2 div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.box2 h4{
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.box2 span{
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+
+.box3{
+  height: 200px;
+  width: 300px;
+  line-height: 30px;
+  background: linear-gradient(48deg, rgba(20,21,51,1) 0%, rgba(25,32,84,1) 100%);
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 3px solid; 
+  border-image: linear-gradient(98deg, rgba(141,80,205,1) 0%, rgba(208,38,173,1) 100%) 2;
+}
+
+.box3 img{
+  width: 18%;
+  margin-left: 5px;
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}
+
+.box3 div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.box3 h4{
+  font-size: 24px;
+  color: white;
+  margin-left: 70px;
+}
+
+.box3 span{
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+
+.container1 button{
+  margin-top: 50px;
+  padding: 20px 20px;
+  background-color: aqua;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section2{
+  background: linear-gradient(74deg, rgba(22,24,57,1) 38%, rgba(30,46,162,1) 100%);
+  text-align: center;
+  width: 100%;
+  height: 800px;
+}
+
+.section2 h2{
+  color: white;
+  font-size: 45px;
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+.section2 p{
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  margin-left: 40px;
+}
+
+.box5{
+  height: 250px;
+  width: 30%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 10px #34363F;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.box5 h4{
+  color: #101023;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.box5 span{
+  color: #34363F;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.box5 .span2{
+  color: #950484;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.box5 button{
+  width: 25%;
+  height: 50px;
+  padding: 10px 10px;
+  margin-left: 142px;
+  border-radius: 5px;
+  background-color: #7F0370;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section3{
+  background: rgb(20,28,82);
+  background: linear-gradient(270deg, rgba(20,28,82,1) 46%, rgba(33,41,88,1) 100%); 
+  width: 100%;
+  height: 750px;
+  display: flex;
+}
+
+.left2{
+ margin: 60px 60px;
+ color: white;
+ flex: 50%;
+ margin-top: 70px;
+}
+
+.left2 h5{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.left2 h2{
+  font-size:40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.left2 p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+.right2{
+ margin: 60px 60px;
+ color: white;
+ flex: 50%;
+ position: relative;
+}
+
+
+
+.container-form{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.container-form input[type="text"]{
+  width: 90%;
+  height: 50%;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+
+
+.container-form .c1,
+.container-form .c2 {
+  flex-grow: 1;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.input-course{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-age{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-age select{
+  width: 92%;
+  height: 30px;
+}
+
+.input-education{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.input-education #education_title{
+  width: 92%;
+  height: 30px;
+}
+
+.right2 button{
+  background-color: #00FFFF;
+  padding: 20px 35px;
+  border: 5px;
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  transform: translateY(100%);
+}
+
+.section4{
+  background-color: #101023;
+  width: 100%;
+  height: max-content;
+  color: white;
+  font-size: 44px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section4 h1{
+  margin-bottom: 60px;
+}
+
+
+.section5{
+  width: 100%;
+  padding: 100px 90px;
+  background: rgb(18,19,44);
+  background: linear-gradient(140deg, rgba(18,19,44,1) 46%, rgba(28,35,92,1) 84%);
+  display: flex;
+}
+
+.left3{
+ flex: 50%;
+ flex-direction: column;
+ margin-right: 80px;
+ position: relative;
+}
+.left3 .fa-arrow-left{
+  position: absolute;
+  bottom: 15px;
+}
+
+.left3 .boxarrow{
+ position: fixed;
+ left: 50px;
+}
+
+.left3 h2{
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.left3 p{
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 80px;
+}
+
+.left3 .boxarrow{
+  position: relative;
+  background-color: #00FFFF;
+  border-radius: 50px ;
+  width: 50px;
+  height: 50px;
+}
+
+.boxarrow .fa-arrow-right{
+  position: absolute;
+  left: 15px;
+  transform: translateY(20px);
+}
+
+.right3{
+  flex: 80%;
+  display: flex;
+}
+
+
+.right3 .ambassodor1{
+  background-color: white;
+  width: 80%;
+  height: 150px;
+  padding: 1.5rem 1.5rem;
+  border: transparent;
+  border-radius:20px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.right3 .ambassodor1 h5{
+  margin-left: 5px;
+  position: absolute;
+  top: 45px;
+}
+
+.right3 .ambassodor1 img{
+  width: 60px;
+  margin-right: 10px;
+}
+
+.right3 .ambassodor2{
+  background-color: white;
+  width: 80%;
+  height: 150px;
+  padding: 1.5rem 1.5rem;
+  border: transparent;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ambassodor2 img{
+  width: 60px;
+  margin-right: 10px;
+}
+.right3 .ambassodor2 h5{
+  margin-left: 5px;
+  position: absolute;
+  top: 45px;
+}
+.right3 .ambassodor2 span{
+ margin-right: 10px;
+}
+
+.right3 span{
+  color: grey;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.section6{
+  background: rgb(62,39,212);
+  background: linear-gradient(41deg, rgba(62,39,212,1) 32%, rgba(189,35,127,1) 56%);
+  width: 100%;
+  height: max-content;
+  padding: 80px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+}
+
+.section6 h1{
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.section6 p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section6 button{
+  padding: 35px 30px;
+  font-size: large;
+  font-weight: 500;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+footer{
+  background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+  width: auto;
+  height:auto;
+  padding: 80px 80px;
+  color: white;
+}
+
+.footer-container ul{
+  list-style: none;
+  line-height: 2.5rem;
+  font-size: 18px;
+}
+
+
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.social h4{
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.social i{
+  margin-right: 5px;
+}
+
+footer span{
+  text-align: center;
+}
+
+
+.copyright{
+ text-align: center;
+}
+.copyright a{
+  color: aqua;
+}
+.copyright p{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
