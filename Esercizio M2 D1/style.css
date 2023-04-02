@@ -338,6 +338,7 @@ inside the original page */
   box-shadow: 10px #34363F;
   margin-right: 40px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .box5 h4{
@@ -363,7 +364,6 @@ inside the original page */
   width: 25%;
   height: 50px;
   padding: 10px 10px;
-  margin-left: 142px;
   border-radius: 5px;
   background-color: #7F0370;
   color: white;
