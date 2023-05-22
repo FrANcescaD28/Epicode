@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+    .giant-font {
+      font-size: 3em;
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+
+    .newLink {
+      text-decoration: double;
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Completa gli esercizi dall'1 al 6 SOLAMENTE con HTML:
+
+  ES.1: Inserisci un tag h1 con il nome del tuo negozio
+
+  ES.2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio
+
+  ES.3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+
+  ES.4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+
+  ES.5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+
+  ES.6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire
+  nessuna "vera" funzionalità di post/salvataggio!)
+  
+  
+  Il resto delle risposte deve essere scritto in JavaScript:
+  
+  
+  ES.7: Scrivi una funzione per cambiare il contenuto del tag h1 in qualcos'altro
+
+  ES.8: Scrivi una funzione per cambiare il colore di background della pagina
+
+  ES.9: Scrivi una funzione per cambiare l'indirizzo presente nel futuro in un altro, fittizio
+
+  ES.10: Scrivi una funzione per aggiungere una classe CSS ad ogni link Amazon della tabella
+
+  ES.11: Scrivi una funzione per aggiungere/togliere una classe CSS a tutte le immagini della tabella; questa classe deve modificare la visibilità/invisibilità dell'immagine
+
+  ES.12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata -->
+  <h1>Art Shop</h1>
+  <table>
+    <tr>
+      <th>Products</th>
+      <th>Link and Description</th>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/download.jpg" alt="huawei-nova-9">
+      </td>
+      <td>
+        <a href="https://www.amazon.it/HUAWEI-Nova-Smartphone-128GB-Black/dp/B09JYVGW9D">
+          Huawei Nova 9
+        </a>
+      </td>
+      <td>Good level Android smartphone, strongly devoted to imaging, able to satisfy even the most demanding user.</td>
+      <td class="price">€289</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/images.jpg" alt="Samsung-Galaxy-Z-Fold4">
+      </td>
+      <td>
+        <a
+          href="https://www.amazon.it/dp/B0B6GHCMQ4/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B0B6GHCMQ4&pd_rd_w=AvD0z&content-id=amzn1.sym.7ef04998-a968-4397-9cab-635d55e2c83b&pf_rd_p=7ef04998-a968-4397-9cab-635d55e2c83b&pf_rd_r=7KBMP4T0SH5F9K2ZNW97&pd_rd_wg=N6gJT&pd_rd_r=3ed526a0-f826-407c-b0d7-2f7346af1cad&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw"
+        >
+          Samsung Galaxy Z Fold 4
+        </a>
+      </td>
+      <td>The rugged foldable smartphone that brings the power of a PC into your hands</td>
+      <td class="price">€1879</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/images (1).jpg" alt="DOOGEE-N40-PRO">
+      </td>
+      <td>
+        <a
+          href="https://www.amazon.it/dp/B09C1RJ3SW/ref=sspa_dk_detail_6?psc=1&pf_rd_p=7ef04998-a968-4397-9cab-635d55e2c83b&pf_rd_r=XZX88ESFQ1C4PMR5D0WK&pd_rd_wg=bcfKx&pd_rd_w=z6poS&content-id=amzn1.sym.7ef04998-a968-4397-9cab-635d55e2c83b&pd_rd_r=bb1fcaed-df8c-42e3-97f8-3a5c3b1925eb&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw"
+        >
+          DOOGEE N40 PRO
+        </a>
+      </td>
+      <td>Android 11, which boasts a generous battery, a large display and a good amount of memory.</td>
+      <td class="price">€160</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/images (2).jpg" alt="Iphone-14">
+      </td>
+      <td>
+        <a
+          href="https://www.amazon.it/Apple-iPhone-14-128-Mezzanotte/dp/B0BDKKF3QC/ref=cs_sr_dp_4?keywords=iphone&qid=1684781574&s=electronics&sprefix=ipho%2Celectronics%2C155&sr=1-3"
+        >
+          iPhone 14
+        </a>
+      </td>
+      <td>Super Retina XDR display. 
+        A battery that lasts all day and gives you up to 20 hours of video playback</td>
+      <td class="price">€850</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/images (3).jpg" alt="Xiaomi-Redmi-Note-12">
+      </td>
+      <td>
+        <a
+          href="https://www.amazon.it/Xiaomi-schermo-frequenza-aggiornamento-batteria/dp/B0BY6PLDZ1/ref=pd_rhf_d_dp_s_pop_multi_lclrrecs_rbr_cn_sccl_1_4/257-0229324-6460373?pd_rd_w=C5pKE&content-id=amzn1.sym.22c6a273-247d-468b-881d-783fdacbca24&pf_rd_p=22c6a273-247d-468b-881d-783fdacbca24&pf_rd_r=M65H357Q4DKKYE27S4DS&pd_rd_wg=pTE8s&pd_rd_r=9f73922f-9b9e-4eca-be25-01913ea37494&pd_rd_i=B0BY6PLDZ1&psc=1"
+        >
+         Xiamo Redmi Note 12
+        </a>
+      </td>
+      <td>
+        Snapdragon 5G core is equipped with the first generation of Snapdragon 4 and the performance are greatly upgraded!
+      </td>
+      <td class="price">€220</td>
+    </tr>
+  </table>
+
+  <textarea></textarea>
+  <input type="text" />
+
+  <footer>
+    <div>Art Shop</div>
+    <div id="address">Via Roma, 45 - 67050 La Guardia (AQ) </div>
+  </footer>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
