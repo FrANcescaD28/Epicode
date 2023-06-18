@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 100%;
+    min-height:100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#fef7e2;
+    position: relative;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button{
+    padding: 20px 20px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #f4be1b;
+    font-size: 30px;
+    font-weight: bold;
+    color: #151e1c;
+    cursor: pointer;
+  }
+
+  #logo2{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+article {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    margin-bottom: 70px;
+  }
+  
+  article img {
+    flex: 0 0 auto;
+    padding: 30px 30px;
+    width: 40%;
+  }
+  
+  article .content {
+    flex: 1 1 auto;
+    text-align: right;
+  }
+
+article p{
+  text-align: justify;
+  font-size: 25px;
+}
+
+article h3{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.card{
+  width: 500px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #fbdc7c;
+  position: absolute;
+  left: 600px;
+  right: 600px;
+}
+.card img{
+  width: 80%;
+  margin: 45px 45px;
+  border-radius: 30px;
+}
+
+.didascalia{
+  text-align: center;
+  font-size: 25px;
+}
+
+#card{
+  padding: 10px 10px;
+  font-size: 15px;
+  margin-left: 40%
+}
